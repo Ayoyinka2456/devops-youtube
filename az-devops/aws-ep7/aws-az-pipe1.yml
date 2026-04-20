@@ -27,7 +27,7 @@ stages:
           pip install awscli
           export AWS_ACCESS_KEY_ID="$(aws_id)"
           export AWS_SECRET_ACCESS_KEY="$(aws_key)"
-          aws s3api create-bucket --bucket dl-azdevops-ep7 --region us-east-1
+          aws s3api create-bucket --bucket yinka-testbucket-ep7 --region us-east-1
           deactivate
 
   # CD Job
